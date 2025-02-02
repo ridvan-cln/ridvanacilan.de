@@ -1,0 +1,78 @@
+baseURL = "https://ridvanacilan.de"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Home"
+theme = "anatole"
+
+summarylength = 2
+enableEmoji = true
+enableRobotsTXT = true
+
+
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates = true
+
+[params]
+title = "Ridvan Açilan"
+author = "Ridvan Açilan"
+description = """
+Welcome to my personal website. 
+I am a software engineer with a M.Sc. in Computer Science at TUM, currently working as an IT consultant at Netlight. Here i mostly write down things i couldn't find anywhere else about coding, self-hosting, and other technical topics.
+"""
+profilePicture = "images/profile.jpg"
+customCss = ["css/syntax.css"]
+reversepagetitle = true
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=false
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/ridvan-acilan/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/ridvan-cln"
+
+[[params.socialIcons]]
+icon = "fa-solid fa-file-lines"
+title = "Resume"
+url = "documents/resume.pdf"
