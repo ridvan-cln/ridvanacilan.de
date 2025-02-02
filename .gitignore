@@ -1,0 +1,29 @@
+# Hugo build artifacts
+/public/
+/resources/
+/hugo_stats.json
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Hugo cache
+/.hugo_build.lock
+
+# Local environment files
+.env
+*.bak
+*.swp
+
+# Netlify/Vercel specific files
+.netlify/
+.vercel/
+
+# Backup and system files
+*.tmp
+*.old
+
+# Git metadata
+.idea/
+.vscode/
