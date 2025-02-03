@@ -28,6 +28,7 @@ I am a software engineer with a M.Sc. in Computer Science at TUM, currently work
 profilePicture = "images/profile.jpg"
 customCss = ["css/syntax.css"]
 reversepagetitle = true
+favicon = "favicons/"
 
 [markup]
     [markup.goldmark]
@@ -72,7 +73,7 @@ icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/ridvan-cln"
 
-#[[params.socialIcons]]
-#icon = "fa-solid fa-file-lines"
-#title = "Resume"
-#url = "documents/resume.pdf"
+[[params.socialIcons]]
+icon = "fa-solid fa-file-lines"
+title = "Resume"
+url = "documents/resume.pdf"
