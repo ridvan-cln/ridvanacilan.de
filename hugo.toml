@@ -72,7 +72,7 @@ icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/ridvan-cln"
 
-[[params.socialIcons]]
-icon = "fa-solid fa-file-lines"
-title = "Resume"
-url = "documents/resume.pdf"
+#[[params.socialIcons]]
+#icon = "fa-solid fa-file-lines"
+#title = "Resume"
+#url = "documents/resume.pdf"
