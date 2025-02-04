@@ -1,8 +1,6 @@
 +++
 title = "Running a Monero Node in a Proxmox LXC"
 date = 2024-03-28T00:00:00Z
-description = "Guide to running a Monero node in a Proxmox LXC with minimal effort."
-categories = ["Tutorials"]
 tags = ["Monero", "Proxmox", "Docker", "LXC"]
 +++
 

@@ -1,10 +1,7 @@
 +++
 title = 'Setup Fail2Ban for File Browser'
 date = 2024-03-28T19:04:20+01:00
-draft = false
-description = "A guide on setting up Fail2Ban for File Browser."
-categories = ["Tutorials"]
-tags = ["fail2ban", "filebrowser", "linux"]
+tags = ["fail2ban", "filebrowser", "security"]
 +++
 
 This guide describes how to setup fail2ban for [File Browser](https://filebrowser.org/).
