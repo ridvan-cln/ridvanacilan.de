@@ -3,6 +3,7 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Home"
 theme = "anatole"
+mainSections = ["tutorials"]
 
 summarylength = 2
 enableEmoji = true
@@ -58,10 +59,10 @@ favicon = "favicons/"
   weight = 100
   url = "/"
   [[menu.main]]
-  name = "Posts"
+  name = "Tutorials"
   weight = 200
-  identifier = "posts"
-  url = "/posts/"
+  identifier = "tutorials"
+  url = "/tutorials/"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
