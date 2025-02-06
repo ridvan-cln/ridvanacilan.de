@@ -31,7 +31,6 @@ customCss = ["css/syntax.css"]
 reversepagetitle = true
 favicon = "favicons/"
 contactFormAction = "https://formspree.io/f/xyzkpeny"
-contactFormReCaptcha = "6LdRDc8qAAAAAIu5WJ4WdaBvfjTZ7Ortj7Qdu3_n"
 
 [markup]
     [markup.goldmark]
