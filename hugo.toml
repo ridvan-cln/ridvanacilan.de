@@ -84,3 +84,9 @@ url = "https://github.com/ridvan-cln"
 icon = "fa-solid fa-file-lines"
 title = "Resume"
 url = "documents/resume.pdf"
+
+[[Menus.footer]]
+name = "Impressum"
+weight = 1
+identifier = "impressum"
+url = "/impressum/"
